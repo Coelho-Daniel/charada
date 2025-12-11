@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charada Misteriosa</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+    text-align: center;
+  }
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    max-width: 400px;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+  }
+  button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  button:hover {
+    background-color: #ff4a3a;
+  }
+  .solution {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #d63333;
+    display: none;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>O que é, o que é?</h1>
+    <p>— Tenho a cabeça sensível, à espera de um toque que me desperte;</p>
+    <p>— Quando me esfregam direito, eu esquento.</p>
+    <p>— Basta um pouco de fricção para eu acender com força.</p>
+    <p>— E depois que dou meu calor… me desmancho devagar.</p>
+    <button onclick="document.getElementById('solution').style.display='block'">Mostrar solução</button>
+    <p class="solution" id="solution">Sou… um fósforo! 🔥</p>
+  </div>
+</body>
+</html>
